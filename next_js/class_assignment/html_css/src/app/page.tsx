@@ -26,7 +26,7 @@ export default function Home() {
       {/* portfolio */}
       <Portfolio />
       {/* footer */}
-
+      <p>hello from next js</p>
     </>
 
 
