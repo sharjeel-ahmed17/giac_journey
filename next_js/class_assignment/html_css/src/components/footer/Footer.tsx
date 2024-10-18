@@ -2,6 +2,8 @@
 
 export default function Footer() {
     return (
-        <div>Footer</div>
+        <footer>
+            <p>all right reversed by sharjeel ahmed</p>
+        </footer>
     )
 }
