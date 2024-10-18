@@ -1,0 +1,56 @@
+.main {
+    width: 1200px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
+
+/* header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    text-shadow: 2px 2px #ff0000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+    padding: 14px;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+
+.header-btn {
+    /* padding: 20px; */
+    padding-block: 12px;
+    padding-inline: 8px;
+    border-radius: 5px;
+    /* box-shadow: ; */
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+/* hero */
