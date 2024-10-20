@@ -1,5 +1,7 @@
 // import {} from 'lucide-react'
 
+import Image from "next/image"
+
 const Work = () => {
     return (
         <div className="py-20 w-[80%]">
@@ -22,7 +24,7 @@ function WorkCard() {
         <>
 
             <div className="mb-8">
-                <img src="/images/work/work1.png" alt="left image" /></div>
+                <Image src="/images/work/work1.png" alt="left image" width={200} height={200} /></div>
             <div>
                 <h3 className="font-bold text-[30px] leading-[44.06px] capitalize mb-3">designning dashboards</h3>
                 <p className="mb-3 capitalize"><span className="bg-red-500 px-4 py-2 text-white rounded-full mr-10 text-[18px] ladding-[26.44]">2020</span> <span className="text-[20px]"> dashboard</span> </p>

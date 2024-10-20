@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 const Hero = () => {
@@ -5,7 +6,7 @@ const Hero = () => {
         <div className="py-20">
 
             <div className="grid grid-cols-1 md:grid-cols-[70%_auto]">
-                <div>
+                <div className="text-center md:text-left mb-5 md:mb-0">
                     <h1 className="mb-3 text-[48px] leading-[61px] font-black tracking-[2px]">Hi, I am Sharjeel,
                         <br />
                         Creative Technologist</h1>
@@ -20,7 +21,7 @@ const Hero = () => {
 
                 </div>
                 <div className="flex justify-center items-center">
-                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg" alt="" className="size-48 rounded-full" />
+                    <Image width={200} height={200} src="/images/work/work1.png" alt="" className="size-48 rounded-full" />
                 </div>
 
             </div>
